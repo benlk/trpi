@@ -7,3 +7,8 @@ permalink: /wpghs-notes/
 Here's a list of the good, the bad, and the ugly. 
 
 - Wordpress -> GitHub export works. 
+- Github -> WordPress doesn't work. 
+  - Response "/ is an invalid repository" with `application/x-www-form-urlencoded` for webhook:
+      1. Set webhook response to `application/x-www-form-urlencoded`
+      2. Edit a file and commit. 
+      3. View webhook response: as mentioned above. 
